@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="car_name">
+        <item>"全部"</item>
+        <item>"捷豹XF"</item>
+        <item>"宝马"</item>
+        <item>"奔驰"</item>
+        <item>"奥迪"</item>
+    </string-array>
+    <string-array name="car_price">
+        <item>"全部"</item>
+        <item>"0-10万"</item>
+        <item>"10-20万"</item>
+        <item>"20-50万"</item>
+        <item>"50-100万"</item>
+        <item>"100万以上"</item>
+    </string-array>
+
+</resources>

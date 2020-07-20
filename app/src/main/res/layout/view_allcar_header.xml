@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text="推荐车型"/>
+
+    <!--推荐车型-->
+    <com.youth.banner.Banner
+        android:id="@+id/banner_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </com.youth.banner.Banner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text="热门车型"/>
+    <!--热门车型:横向滑动，作为 HeaderView-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_hot_car"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text="车型大全"/>
+</LinearLayout>

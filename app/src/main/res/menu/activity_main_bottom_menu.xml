@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_home"
+        android:title="首页" />
+    <item
+        android:id="@+id/item_car_owner"
+        android:icon="@drawable/ic_car_owner"
+        android:title="车主圈" />
+    <item
+        android:id="@+id/item_select_cat"
+        android:icon="@drawable/ic_select_car"
+        android:title="选车" />
+    <item
+        android:id="@+id/item_my"
+        android:icon="@drawable/ic_my"
+        android:title="我的" />
+</menu>

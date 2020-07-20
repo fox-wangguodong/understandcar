@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UnderstandCarEmperor</string>
+    <string name="appName">仿懂车帝</string>
+    <string name="appVersion">version:1.0.0</string>
+
+
+    <string name="bugly_app_id">066033f0dc</string>
+
+
+</resources>
